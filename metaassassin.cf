@@ -1,0 +1,5 @@
+loadplugin      Mail::SpamAssassin::Plugin::MetaAssassin
+
+describe	METAASSASSIN			Sender listed in MetaScan
+header		METAASSASSIN			eval:metaassassin()
+score		METAASSASSIN			2.0
