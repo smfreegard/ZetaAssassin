@@ -1,0 +1,5 @@
+loadplugin      Mail::SpamAssassin::Plugin::ZetaAssassin
+
+describe	ZETAASSASSIN			Sender listed in Zetascan
+header		ZETAASSASSIN			eval:zetaassassin()
+score		ZETAASSASSIN			2.0

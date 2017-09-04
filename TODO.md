@@ -1,10 +1,10 @@
-# MetaAssassin
+# ZetaAssassin
 
-### ALPHA - Plugin for Spamassassin to prevent abuse
+### Beta - Plugin for Spamassassin to prevent abuse
 
 ## Goals
 
-* Query Metascan for sender IP address
+* Query Zetascan for sender IP address
 * v1 Use the simple HTTP check
 * v2 Use the metascan DNS query end-point
 * Check sender address / domain, optionally HELO domain
@@ -21,4 +21,4 @@
 * Add ability to skip trusted IPs
 * Add timeout for LWP query, prevent long HTTP timeout
 * Use DNS queries vs JSON for speed
-* Add benchmarking app for each of the API end-points to metascan
+* Add benchmarking app for each of the API end-points to zetascan

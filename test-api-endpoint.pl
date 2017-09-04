@@ -6,7 +6,7 @@ use JSON::PP;
 # For SSL
 #$ENV{'PERL_LWP_SSL_VERIFY_HOSTNAME'} = 0;
 
-my $url = "http://api.metascan.io/v1/check/json";
+my $url = "http://api.zetascan.com/v1/check/json";
 
 $query = $url . "/74.125.83.53";
 
